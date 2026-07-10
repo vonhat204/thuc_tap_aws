@@ -1,5 +1,5 @@
 baseURL = "https://vonhat204.github.io/thuc_tap_aws/"
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
 
