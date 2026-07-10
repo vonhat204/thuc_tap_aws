@@ -20,10 +20,7 @@
 </style>
 <div class="ghContributors">
   {{ $url := .Get 0 }}
-  {{ with try (resources.GetRemote $url) }}
-    {{ with .Err }}
-      <p>Unable to load contributors.</p>
-    {{ else with .Value }}
+  {{ with (resources.GetRemote $url) }}
       {{ $data := . | transform.Unmarshal }}
       {{ range $data }}
   <div>
@@ -43,6 +40,5 @@
     <span class="contributions">{{.contributions}} commits</span>
   </div>
       {{ end }}
-    {{ end }}
   {{ end }}
 </div>
