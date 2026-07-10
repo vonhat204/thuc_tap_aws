@@ -129,7 +129,7 @@ Compress-Archive -Path scratch/lambda_function.py -DestinationPath scratch/lambd
 
 # Ignore error if function already exists
 aws lambda delete-function --function-name EC2SlackNotifier 2>$null
-aws lambda create-function --function-name EC2SlackNotifier --runtime python3.12 --role $roleArn --handler lambda_function.lambda_handler --zip-file fileb://scratch/lambda_function.zip --environment "Variables={SLACK_WEBHOOK_URL=https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX}" | Out-Null
+aws lambda create-function --function-name EC2SlackNotifier --runtime python3.12 --role $roleArn --handler lambda_function.lambda_handler --zip-file fileb://scratch/lambda_function.zip --environment "Variables={SLACK_WEBHOOK_URL=<YOUR_SLACK_WEBHOOK_URL>}" | Out-Null
 
 # 6. EventBridge Rule
 Write-Output "Creating EventBridge Rule..."

@@ -41,7 +41,7 @@ def lambda_handler(event, context):
 Set-Content -Path scratch/lambda_function.py -Value $lambdaCode -Encoding Ascii
 Compress-Archive -Path scratch/lambda_function.py -DestinationPath scratch/lambda_function.zip -Force
 
-aws lambda create-function --function-name EC2SlackNotifier --runtime python3.12 --role $roleArn --handler lambda_function.lambda_handler --zip-file fileb://scratch/lambda_function.zip --environment "Variables={SLACK_WEBHOOK_URL=https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX}" | Out-Null
+aws lambda create-function --function-name EC2SlackNotifier --runtime python3.12 --role $roleArn --handler lambda_function.lambda_handler --zip-file fileb://scratch/lambda_function.zip --environment "Variables={SLACK_WEBHOOK_URL=<YOUR_SLACK_WEBHOOK_URL>}" | Out-Null
 
 # 6. EventBridge Rule
 Write-Output "Creating EventBridge Rule..."
