@@ -1,0 +1,9 @@
+{
+  "BudgetName": "Lab7-Cost-Budget",
+  "BudgetLimit": {
+    "Amount": "10",
+    "Unit": "USD"
+  },
+  "TimeUnit": "MONTHLY",
+  "BudgetType": "COST"
+}

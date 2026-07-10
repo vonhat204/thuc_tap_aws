@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; padding: 20px; font-size: 15px; }
+  .message { display: flex; align-items: flex-start; margin-bottom: 15px; }
+  .avatar { width: 36px; height: 36px; border-radius: 4px; background-color: #e8a723; margin-right: 10px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; }
+  .content { display: flex; flex-direction: column; }
+  .header { display: flex; align-items: baseline; }
+  .author { font-weight: 900; margin-right: 5px; color: #1d1c1d; }
+  .time { font-size: 12px; color: #616061; }
+  .app-tag { background-color: #e8e8e8; font-size: 11px; padding: 2px 4px; border-radius: 3px; margin-left: 5px; font-weight: bold; color: #616061; }
+  .text { color: #1d1c1d; line-height: 1.46; margin-top: 4px; }
+</style>
+</head>
+<body>
+  <div class="message">
+    <div class="avatar">AWS</div>
+    <div class="content">
+      <div class="header">
+        <span class="author">AWS EC2 Alert</span>
+        <span class="app-tag">APP</span>
+        <span class="time">10:45 AM</span>
+      </div>
+      <div class="text">EC2 Instance i-0123456789abcdef0 state changed to stopped</div>
+    </div>
+  </div>
+  <div class="message">
+    <div class="avatar">AWS</div>
+    <div class="content">
+      <div class="header">
+        <span class="author">AWS EC2 Alert</span>
+        <span class="app-tag">APP</span>
+        <span class="time">10:48 AM</span>
+      </div>
+      <div class="text">EC2 Instance i-0123456789abcdef0 state changed to running</div>
+    </div>
+  </div>
+</body>
+</html>

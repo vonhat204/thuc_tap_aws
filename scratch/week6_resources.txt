@@ -1,0 +1,7 @@
+vpcId=vpc-0cebba16c73f585e2
+subnet1=subnet-01bd412f56819796b
+subnet2=subnet-0850c31d51c2fd05b
+directoryId=d-97679a5066
+sgId=sg-025ba5d7888b22e2f
+inEndpointId=rslvr-in-e4fcd41cc3594349a
+planId=1487f322-ac12-445c-b81e-3ffb64a9fda1

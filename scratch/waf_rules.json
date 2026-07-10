@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "BlockBadIPsRule",
+    "Priority": 1,
+    "Statement": {
+      "IPSetReferenceStatement": {
+        "ARN": "arn:aws:wafv2:ap-southeast-2:316704942380:regional/ipset/BlockBadIPs/7e84536e-ffd0-49ac-86e7-228d5d32781e"
+      }
+    },
+    "Action": {
+      "Block": {}
+    },
+    "VisibilityConfig": {
+      "SampledRequestsEnabled": true,
+      "CloudWatchMetricsEnabled": true,
+      "MetricName": "BlockBadIPsRuleMetric"
+    }
+  },
+  {
+    "Name": "AWS-AWSManagedRulesCommonRuleSet",
+    "Priority": 2,
+    "Statement": {
+      "ManagedRuleGroupStatement": {
+        "VendorName": "AWS",
+        "Name": "AWSManagedRulesCommonRuleSet"
+      }
+    },
+    "OverrideAction": {
+      "None": {}
+    },
+    "VisibilityConfig": {
+      "SampledRequestsEnabled": true,
+      "CloudWatchMetricsEnabled": true,
+      "MetricName": "AWSManagedRulesCommonRuleSetMetric"
+    }
+  }
+]

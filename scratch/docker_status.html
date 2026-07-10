@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { background-color: #1a1a1a; color: #e0e0e0; font-family: 'Consolas', 'Courier New', monospace; padding: 30px; font-size: 15px; line-height: 1.5; }
+    .window { border: 1px solid #333; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); overflow: hidden; }
+    .header { background-color: #2d2d2d; padding: 10px; display: flex; align-items: center; border-bottom: 1px solid #333; }
+    .dot { width: 12px; height: 12px; border-radius: 50%; margin-right: 8px; }
+    .dot.red { background-color: #ff5f56; }
+    .dot.yellow { background-color: #ffbd2e; }
+    .dot.green { background-color: #27c93f; }
+    .title { color: #999; margin-left: 20px; font-size: 13px; flex-grow: 1; text-align: center; }
+    .content { padding: 20px; background-color: #1e1e1e; }
+    .cmd { color: #00ff00; font-weight: bold; margin-bottom: 5px; }
+    .cmd::before { content: "PS C:\\Users\\Admin\\fcj-workshop> "; color: #858585; }
+    .output { color: #ffffff; margin-bottom: 25px; white-space: pre-wrap; }
+    .success { color: #27c93f; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="window">
+    <div class="header">
+      <div class="dot red"></div>
+      <div class="dot yellow"></div>
+      <div class="dot green"></div>
+      <div class="title">Windows PowerShell - docker-compose up</div>
+    </div>
+    <div class="content">
+      <div class="cmd">docker compose -f scratch/docker-compose.yml up -d</div>
+      <div class="output">Network scratch_default Creating
+Network scratch_default Created
+Container scratch-web-1 Creating
+Container scratch-web-1 Created
+Container scratch-web-1 Starting
+Container scratch-web-1 Started</div>
+
+      <div class="cmd">docker ps</div>
+      <div class="output">CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS                                                 NAMES
+20449adea750   nginx:alpine   "/docker-entrypoint.s…"  5 seconds ago   <span class="success">Up 4 seconds</span>   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp             scratch-web-1</div>
+    </div>
+  </div>
+</body>
+</html>

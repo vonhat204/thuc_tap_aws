@@ -1,0 +1,15 @@
+{
+  "BackupPlanName": "Lab13Plan",
+  "Rules": [
+    {
+      "RuleName": "DailyBackup",
+      "TargetBackupVaultName": "Lab13Vault",
+      "ScheduleExpression": "cron(0 12 * * ? *)",
+      "StartWindowMinutes": 480,
+      "CompletionWindowMinutes": 10080,
+      "Lifecycle": {
+        "DeleteAfterDays": 30
+      }
+    }
+  ]
+}

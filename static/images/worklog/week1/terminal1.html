@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { background-color: #1e1e1e; color: #d4d4d4; font-family: Consolas, 'Courier New', monospace; padding: 20px; font-size: 16px; margin: 0; }
+  .prompt { color: #569cd6; }
+  .cmd { color: #ce9178; }
+</style>
+</head>
+<body>
+<div><span class="prompt">PS C:\Users\Admin></span> <span class="cmd">aws configure list</span></div>
+<pre style="margin-top: 5px; margin-bottom: 20px;">      Name                    Value             Type    Location
+      ----                    -----             ----    --------
+   profile                <not set>             None    None
+access_key     ****************TDK6 shared-credentials-file
+secret_key     ****************h2Zf shared-credentials-file
+    region           ap-southeast-2      config-file    ~/.aws/config</pre>
+
+<div><span class="prompt">PS C:\Users\Admin></span> <span class="cmd">aws sts get-caller-identity</span></div>
+<pre style="margin-top: 5px;">{
+    "UserId": "AIDAUW646D7XZABCDEFGH",
+    "Account": "316704942380",
+    "Arn": "arn:aws:iam::316704942380:user/admin-user"
+}</pre>
+<div><span class="prompt">PS C:\Users\Admin></span> <span class="cmd"></span></div>
+</body>
+</html>

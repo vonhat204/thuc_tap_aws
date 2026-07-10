@@ -1,0 +1,6 @@
+vpcId=vpc-08f49243da9f25c83
+sgId=sg-02560ec9088c4dc95
+albArn=arn:aws:elasticloadbalancing:ap-southeast-2:316704942380:loadbalancer/app/Lab16-ALB/50e24699bd62ff25
+tgArn=arn:aws:elasticloadbalancing:ap-southeast-2:316704942380:targetgroup/Lab16-TG/84c9cafa9f4fcd66
+listenerArn=arn:aws:elasticloadbalancing:ap-southeast-2:316704942380:listener/app/Lab16-ALB/50e24699bd62ff25/c005b79fb6cda0c3
+nsOpId=x5g4tq5kjky2axu2d6amijssx3zeq5pc-gwltstij

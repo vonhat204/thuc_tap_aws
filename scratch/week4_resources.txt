@@ -1,0 +1,4 @@
+tgArn=arn:aws:elasticloadbalancing:ap-southeast-2:316704942380:targetgroup/Lab6-TG/883443865365cb5e
+albArn=arn:aws:elasticloadbalancing:ap-southeast-2:316704942380:loadbalancer/app/Lab6-ALB/3029af6e2b133159
+albDns=Lab6-ALB-1844904777.ap-southeast-2.elb.amazonaws.com
+accountId=316704942380

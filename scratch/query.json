@@ -1,0 +1,1 @@
+{"Type":"TAG_FILTERS_1_0","Query":"{\"ResourceTypeFilters\":[\"AWS::AllSupported\"],\"TagFilters\":[{\"Key\":\"Environment\",\"Values\":[\"Production\"]},{\"Key\":\"Project\",\"Values\":[\"FCJ-Workshop\"]}]}"}

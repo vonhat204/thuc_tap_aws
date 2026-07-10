@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { font-family: Tahoma, "Segoe UI", sans-serif; margin: 0; padding: 20px; background: #c0c0c0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+  .window { background: #f0f0f0; border: 1px solid #999; border-radius: 5px; box-shadow: 2px 2px 10px rgba(0,0,0,0.5); width: 450px; overflow: hidden; }
+  .title-bar { background: linear-gradient(to bottom, #d9e6f3, #b8d0e9); padding: 5px 10px; border-bottom: 1px solid #999; font-size: 12px; }
+  .tabs { display: flex; border-bottom: 1px solid #ccc; background: #fff; padding-top: 5px; }
+  .tab { padding: 5px 10px; border: 1px solid transparent; margin-bottom: -1px; font-size: 12px; }
+  .tab.active { background: #fff; border: 1px solid #ccc; border-bottom-color: #fff; }
+  .content { padding: 15px; background: #fff; font-size: 12px; }
+  .list { border: 1px solid #ccc; height: 150px; margin-top: 10px; overflow-y: auto; }
+  .list-item { padding: 5px; border-bottom: 1px solid #eee; display: flex; align-items: center; }
+  .icon { width: 16px; height: 16px; background: #f1c40f; margin-right: 10px; border-radius: 2px; }
+  .btn-container { text-align: right; padding: 10px 15px; background: #f0f0f0; border-top: 1px solid #ccc; }
+  button { padding: 5px 15px; font-family: Tahoma; font-size: 12px; border: 1px solid #999; background: #e1e1e1; border-radius: 3px; }
+</style>
+</head>
+<body>
+  <div class="window">
+    <div class="title-bar">share Properties</div>
+    <div class="tabs">
+      <div class="tab">General</div>
+      <div class="tab">Security</div>
+      <div class="tab active">Previous Versions</div>
+    </div>
+    <div class="content">
+      <p>Previous versions come from shadow copies, which are saved automatically. You can use them to restore accidentally deleted or modified files.</p>
+      <p>Folder versions:</p>
+      <div class="list">
+        <div class="list-item"><div class="icon"></div> Yesterday, 5:00 PM</div>
+        <div class="list-item"><div class="icon"></div> Today, 8:00 AM</div>
+        <div class="list-item"><div class="icon"></div> Today, 12:00 PM</div>
+      </div>
+    </div>
+    <div class="btn-container">
+      <button>Open</button>
+      <button>Copy...</button>
+      <button>Restore...</button>
+    </div>
+  </div>
+</body>
+</html>

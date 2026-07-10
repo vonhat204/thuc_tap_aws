@@ -1,0 +1,6 @@
+{
+   "ImageId": "ami-0df585a4f578deee0",
+   "InstanceType": "t3.micro",
+   "SecurityGroupIds": ["sg-0992ab9575f2d182b"],
+   "UserData": "IyEvYmluL2Jhc2gKeXVtIHVwZGF0ZSAteQp5dW0gaW5zdGFsbCAteSBodHRwZApzeXN0ZW1jdGwgc3RhcnQgaHR0cGQKc3lzdGVtY3RsIGVuYWJsZSBodHRwZAppbnN0YW5jZV9pZD0kKGN1cmwgaHR0cDovLzE2OS4yNTQuMTY5LjI1NC9sYXRlc3QvbWV0YS1kYXRhL2luc3RhbmNlLWlkKQplY2hvICI8aDE+QVdTIExvYWQgQmFsYW5jZXIgJiBBdXRvIFNjYWxpbmcgRGVtbzwvaDE+PHA+SW5zdGFuY2UgSUQ6ICRpbnN0YW5jZV9pZDwvcD4iID4gL3Zhci93d3AvaHRtbC9pbmRleC5odG1s"
+}

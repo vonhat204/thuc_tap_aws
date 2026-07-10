@@ -1,0 +1,10 @@
+bucketName=fcj-lab11-bucket-vonhat
+topicArn=arn:aws:sns:ap-southeast-2:316704942380:Lab11-Topic
+vpcId=vpc-03790b05d94afcb76
+igwId=igw-0ae3ab582cd30d337
+subnetId=subnet-061107fcca034b43f
+rtId=rtb-08b88b9b0453a1686
+sgId=sg-0aa47ca0db97ac13b
+instanceId=i-0626a0b2b7eea3342
+ouId=ou-qjb1-yxkchg9m
+policyId=p-auuornpk

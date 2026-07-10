@@ -1,0 +1,3 @@
+bucketName=fcj-vmimport-vonhat
+repoName=fcj-container-app
+dbName=lab15-db

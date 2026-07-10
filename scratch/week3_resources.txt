@@ -1,0 +1,11 @@
+winInstance=i-0aa49211d0f226b2b
+linuxInstance=i-0208a5b34c7e37408
+winSgId=sg-002667e363708a28c
+linuxSgId=sg-0992ab9575f2d182b
+winIp=3.107.187.212
+linuxIp=32.236.190.133
+linuxVolumeId=vol-0ff96f2a5a224cebb
+linuxSnapshotId=snap-05096baea641ad758
+linuxAmiId=ami-02bb730a4baa58abe
+dbSgId=sg-0f6f5157215179d4b
+rdsInstance=lab5-rds
