@@ -3,7 +3,7 @@ title: "Giám sát hệ thống với CloudWatch"
 date: 2026-04-26
 weight: 8
 chapter: false
-pre: " <b> 4.8. </b> "
+pre: " <b> 5.8. </b> "
 ---
 
 Để duy trì tính ổn định, giám sát hiệu năng vận hành thời gian thực và kịp thời phát hiện các lỗi phát sinh trong kiến trúc Serverless, hệ thống sử dụng dịch vụ giám sát tập trung **Amazon CloudWatch**. Toàn bộ hoạt động ghi nhật ký (Logging) của các thành phần backend và IoT đều được tập hợp về đây để phục vụ công tác giám sát và chẩn đoán.

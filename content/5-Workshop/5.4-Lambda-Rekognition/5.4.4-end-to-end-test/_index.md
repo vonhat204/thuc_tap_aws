@@ -3,7 +3,7 @@ title: "Vehicle Recognition Flow Testing (End-to-End Test)"
 date: 2026-04-26
 weight: 4
 chapter: false
-pre: " <b> 4.4.4. </b> "
+pre: " <b> 5.4.4. </b> "
 ---
 
 To evaluate the accuracy and performance of the automatic recognition system, a comprehensive End-to-End Test was conducted by simulating vehicles entering the parking lot (IN direction) and exiting the parking lot (OUT direction), thereby verifying the coordinated operation of Amazon S3, AWS Lambda, Amazon Rekognition, and Amazon DynamoDB.

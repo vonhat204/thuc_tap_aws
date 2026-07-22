@@ -3,7 +3,7 @@ title: "Tích hợp Amazon Rekognition"
 date: 2026-04-26
 weight: 2
 chapter: false
-pre: " <b> 4.4.2. </b> "
+pre: " <b> 5.4.2. </b> "
 ---
 
 Trong hệ thống đỗ xe thông minh, dịch vụ **Amazon Rekognition** đóng vai trò là động cơ nhận diện thị giác máy tính chính, chịu trách nhiệm tự động trích xuất ký tự biển số xe từ hình ảnh thô được chụp bởi ESP32 Camera.

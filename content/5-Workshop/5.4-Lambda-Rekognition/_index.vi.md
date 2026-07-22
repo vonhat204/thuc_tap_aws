@@ -3,7 +3,7 @@ title: "Lambda & Amazon Rekognition"
 date: 2026-04-26
 weight: 4
 chapter: false
-pre: " <b> 4.4. </b> "
+pre: " <b> 5.4. </b> "
 ---
 
 Chương này trình bày chi tiết về quá trình thiết kế, cấu hình và triển khai hệ thống xử lý dữ liệu tự động ở phía Backend của bãi đỗ xe thông minh. Kiến trúc này sử dụng mô hình lập trình hướng sự kiện (Event-Driven Architecture) nhằm liên kết các dịch vụ Serverless bao gồm **AWS Lambda**, **Amazon Rekognition** và **Amazon DynamoDB**.

@@ -3,7 +3,7 @@ title: "Lambda Image Processing & Event Triggering"
 date: 2026-04-26
 weight: 1
 chapter: false
-pre: " <b> 4.4.1. </b> "
+pre: " <b> 5.4.1. </b> "
 ---
 
 To automate the workflow when a new vehicle image is uploaded to the S3 storage system, a serverless **AWS Lambda** function was built and configured with event-driven triggering (Event-Driven Architecture).

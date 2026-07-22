@@ -3,7 +3,7 @@ title: "System Monitoring with CloudWatch"
 date: 2026-04-26
 weight: 8
 chapter: false
-pre: " <b> 4.8. </b> "
+pre: " <b> 5.8. </b> "
 ---
 
 To maintain system stability, monitor real-time operational performance, and promptly detect errors arising in the Serverless architecture, the system uses the centralized monitoring service **Amazon CloudWatch**. All logging activities from backend and IoT components are aggregated here for monitoring and diagnostics purposes.

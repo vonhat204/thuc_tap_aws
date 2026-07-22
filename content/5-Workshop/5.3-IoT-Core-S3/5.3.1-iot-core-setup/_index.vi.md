@@ -3,7 +3,7 @@ title: "Cấu hình AWS IoT Core"
 date: 2026-04-26
 weight: 1
 chapter: false
-pre: " <b> 4.3.1. </b> "
+pre: " <b> 5.3.1. </b> "
 ---
 
 Trong quá trình xây dựng hệ thống đỗ xe thông minh, việc thiết lập kênh truyền thông tin cậy và bảo mật giữa thiết bị biên (ESP32) và đám mây được thực hiện thông qua cấu hình các thành phần quản lý định danh, xác thực và phân quyền trên **AWS IoT Core**.

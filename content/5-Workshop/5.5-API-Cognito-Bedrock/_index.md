@@ -3,7 +3,7 @@ title: "API Gateway, Cognito & Bedrock"
 date: 2026-04-26
 weight: 5
 chapter: false
-pre: " <b> 4.5. </b> "
+pre: " <b> 5.5. </b> "
 ---
 
 To provide endpoints for the Web Dashboard application and the IoT edge system, while ensuring information security and artificial intelligence integration, three services — **AWS API Gateway**, **Amazon Cognito**, and **Amazon Bedrock** — have been tightly integrated.

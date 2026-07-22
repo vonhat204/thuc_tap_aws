@@ -3,7 +3,7 @@ title: "Lambda xử lý ảnh và kích hoạt sự kiện"
 date: 2026-04-26
 weight: 1
 chapter: false
-pre: " <b> 4.4.1. </b> "
+pre: " <b> 5.4.1. </b> "
 ---
 
 Để tự động hóa quy trình khi có ảnh phương tiện mới tải lên hệ thống lưu trữ S3, một hàm tính toán không máy chủ **AWS Lambda** đã được xây dựng và cấu hình kích hoạt dựa trên sự kiện (Event-Driven Architecture).

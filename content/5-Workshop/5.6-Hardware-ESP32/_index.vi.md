@@ -3,7 +3,7 @@ title: "Lập trình và Cấu hình Phần cứng ESP32"
 date: 2026-04-26
 weight: 6
 chapter: false
-pre: " <b> 4.6. </b> "
+pre: " <b> 5.6. </b> "
 ---
 
 Chương này trình bày chi tiết về sơ đồ kết nối và mã nguồn lập trình điều khiển các thiết bị phần cứng biên (Edge Devices). Hệ thống phân tách thành hai khu vực xử lý độc lập sử dụng vi điều khiển ESP32 chạy trên nền tảng **ESP-IDF** kết hợp thư viện FreeRTOS để tối ưu hiệu năng thời gian thực.

@@ -3,7 +3,7 @@ title: "Lambda & Amazon Rekognition"
 date: 2026-04-26
 weight: 4
 chapter: false
-pre: " <b> 4.4. </b> "
+pre: " <b> 5.4. </b> "
 ---
 
 This chapter provides a detailed look at the design, configuration, and deployment of the automated backend data processing system for the smart parking lot. This architecture employs an Event-Driven Architecture to integrate Serverless services including **AWS Lambda**, **Amazon Rekognition**, and **Amazon DynamoDB**.

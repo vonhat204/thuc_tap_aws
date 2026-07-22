@@ -3,7 +3,7 @@ title: "Tạo S3 Bucket & Presigned URL"
 date: 2026-04-26
 weight: 2
 chapter: false
-pre: " <b> 4.3.2. </b> "
+pre: " <b> 5.3.2. </b> "
 ---
 
 Để phục vụ lưu trữ hình ảnh chụp phương tiện phục vụ nhận diện biển số xe đầu vào và đầu ra, một hệ thống lưu trữ đối tượng tin cậy trên **Amazon S3** đã được thiết lập cùng cơ chế phân quyền bảo mật truy cập bằng **Presigned URL**.

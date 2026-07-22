@@ -3,7 +3,7 @@ title: "ESP32 Hardware Programming and Configuration"
 date: 2026-04-26
 weight: 6
 chapter: false
-pre: " <b> 4.6. </b> "
+pre: " <b> 5.6. </b> "
 ---
 
 This chapter presents a detailed account of the wiring diagrams and firmware source code for controlling the edge hardware devices. The system is divided into two independent processing zones using ESP32 microcontrollers running on the **ESP-IDF** platform combined with the FreeRTOS library to optimize real-time performance.

@@ -3,7 +3,7 @@ title: "System Administration Web Dashboard"
 date: 2026-04-26
 weight: 7
 chapter: false
-pre: " <b> 4.7. </b> "
+pre: " <b> 5.7. </b> "
 ---
 
 To support visual monitoring, statistics, and parking lot operations, a comprehensive administration Web Dashboard was built using **React/Next.js** technology combined with modern design libraries, distributed via **Amazon CloudFront** (`https://d3imp0j8sdburp.cloudfront.net/`).

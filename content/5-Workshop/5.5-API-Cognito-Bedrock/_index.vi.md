@@ -3,7 +3,7 @@ title: "API Gateway, Cognito & Bedrock"
 date: 2026-04-26
 weight: 5
 chapter: false
-pre: " <b> 4.5. </b> "
+pre: " <b> 5.5. </b> "
 ---
 
 Để cung cấp các điểm kết nối (Endpoints) cho ứng dụng Web Dashboard và hệ thống biên IoT, đồng thời đảm bảo an ninh thông tin và tích hợp trí tuệ nhân tạo, ba dịch vụ **AWS API Gateway**, **Amazon Cognito** và **Amazon Bedrock** đã được tích hợp chặt chẽ.

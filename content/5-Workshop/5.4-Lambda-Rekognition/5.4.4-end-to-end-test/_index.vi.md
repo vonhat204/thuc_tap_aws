@@ -3,7 +3,7 @@ title: "Kiểm thử luồng nhận diện xe (End-to-End Test)"
 date: 2026-04-26
 weight: 4
 chapter: false
-pre: " <b> 4.4.4. </b> "
+pre: " <b> 5.4.4. </b> "
 ---
 
 Để đánh giá tính chính xác và hiệu năng của hệ thống nhận diện tự động, quy trình kiểm thử toàn diện (End-to-End Test) đã được thực hiện bằng cách mô phỏng các lượt xe đi vào bãi đỗ (chiều IN) và đi ra khỏi bãi đỗ (chiều OUT), từ đó xác minh sự phối hợp hoạt động giữa các dịch vụ Amazon S3, AWS Lambda, Amazon Rekognition và Amazon DynamoDB.

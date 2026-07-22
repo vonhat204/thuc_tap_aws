@@ -3,7 +3,7 @@ title: "Resource Cleanup"
 date: 2026-04-26
 weight: 9
 chapter: false
-pre: " <b> 4.9. </b> "
+pre: " <b> 5.9. </b> "
 ---
 
 After completing the workshop experiment and finalizing the report, to avoid unexpected costs from provisioned AWS resources, it is necessary to perform a systematic cleanup in the following order.

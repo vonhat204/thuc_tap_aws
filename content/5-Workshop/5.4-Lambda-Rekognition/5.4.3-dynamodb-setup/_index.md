@@ -3,7 +3,7 @@ title: "DynamoDB Database Design"
 date: 2026-04-26
 weight: 3
 chapter: false
-pre: " <b> 4.4.3. </b> "
+pre: " <b> 5.4.3. </b> "
 ---
 
 To store the real-time operational status of parking slots and the vehicle entry/exit history, the NoSQL database service **Amazon DynamoDB** is used as the system's central data store.

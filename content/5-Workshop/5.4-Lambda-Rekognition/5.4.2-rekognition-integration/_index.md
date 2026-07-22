@@ -3,7 +3,7 @@ title: "Amazon Rekognition Integration"
 date: 2026-04-26
 weight: 2
 chapter: false
-pre: " <b> 4.4.2. </b> "
+pre: " <b> 5.4.2. </b> "
 ---
 
 In the smart parking system, **Amazon Rekognition** serves as the primary computer vision recognition engine, responsible for automatically extracting license plate characters from raw images captured by the ESP32 Camera.

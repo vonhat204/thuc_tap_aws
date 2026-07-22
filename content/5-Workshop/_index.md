@@ -1,9 +1,9 @@
 ---
 title: "Workshop"
 date: 2026-04-26
-weight: 4
+weight: 5
 chapter: false
-pre: " <b> 4. </b> "
+pre: " <b> 5. </b> "
 ---
 
 # Smart Parking IoT System — Detailed Implementation Guide

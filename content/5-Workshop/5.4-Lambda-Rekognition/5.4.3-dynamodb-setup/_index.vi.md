@@ -3,7 +3,7 @@ title: "Thiết kế cơ sở dữ liệu DynamoDB"
 date: 2026-04-26
 weight: 3
 chapter: false
-pre: " <b> 4.4.3. </b> "
+pre: " <b> 5.4.3. </b> "
 ---
 
 Để lưu trữ trạng thái hoạt động của các chỗ đỗ xe và lịch sử phương tiện ra vào theo thời gian thực, dịch vụ cơ sở dữ liệu NoSQL **Amazon DynamoDB** được sử dụng làm kho lưu trữ trung tâm của hệ thống.

@@ -3,7 +3,7 @@ title: "Web Dashboard quản trị hệ thống"
 date: 2026-04-26
 weight: 7
 chapter: false
-pre: " <b> 4.7. </b> "
+pre: " <b> 5.7. </b> "
 ---
 
 Nhằm hỗ trợ công tác giám sát, thống kê và vận hành bãi đỗ xe trực quan, một ứng dụng Web Dashboard quản trị toàn diện được xây dựng bằng công nghệ **React/Next.js** kết hợp với thư viện thiết kế hiện đại, triển khai phân phối qua **Amazon CloudFront** (`https://d3imp0j8sdburp.cloudfront.net/`). 
