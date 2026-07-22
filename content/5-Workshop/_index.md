@@ -12,6 +12,10 @@ pre: " <b> 4. </b> "
 
 The **Smart Parking IoT System** is a comprehensive parking management automation solution built on the **AWS Serverless** architecture. It integrates edge IoT devices (ESP32 Camera and ultrasonic sensors) to recognize entering/exiting vehicles, detect empty/occupied parking slot statuses in real-time, automatically store and process data, and provide a web dashboard interface with an AI-assisted chatbot.
 
+{{% notice info "Link Demo Frontend (FE)" %}}
+🎬 **Demo Frontend (FE):** Access the [Demo FE Folder on Google Drive](https://drive.google.com/drive/folders/1bkY5a88R-GRt-Bm0hTVDSIM8-R6Kj5Rt?usp=sharing) to view demo videos and images of the Web Dashboard interface.
+{{% /notice %}}
+
 In this Workshop section, we will walk through all the implementation steps in detail from start to finish — including AWS infrastructure configuration, hardware flashing, user interface building, and monitoring setup.
 
 #### Table of Contents

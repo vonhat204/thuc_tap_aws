@@ -12,6 +12,10 @@ pre: " <b> 4. </b> "
 
 **Hệ thống Parking IoT thông minh** là giải pháp tự động hóa quản lý bãi đỗ xe toàn diện được xây dựng trên kiến trúc **AWS Serverless**. Hệ thống kết hợp thiết bị IoT biên (ESP32 Camera và cảm biến siêu âm) để nhận diện phương tiện ra/vào bãi đỗ, phát hiện trạng thái trống/đầy của các vị trí đỗ xe theo thời gian thực, lưu trữ và xử lý dữ liệu tự động, đồng thời cung cấp giao diện dashboard web và chatbot hỗ trợ AI.
 
+{{% notice info "Link Demo Frontend (FE)" %}}
+🎬 **Demo Frontend (FE):** Truy cập [Thư mục Demo FE trên Google Drive](https://drive.google.com/drive/folders/1bkY5a88R-GRt-Bm0hTVDSIM8-R6Kj5Rt?usp=sharing) để xem video và hình ảnh demo giao diện Web Dashboard.
+{{% /notice %}}
+
 Nội dung phần này trình bày chi tiết quá trình thiết kế, cấu hình và triển khai thực tế của toàn bộ hệ thống từ đầu đến cuối — bao gồm thiết lập hạ tầng dịch vụ AWS, lập trình nạp code cho thiết bị phần cứng, xây dựng giao diện người dùng và cấu hình giám sát vận hành.
 
 #### Nội dung
